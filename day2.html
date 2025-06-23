@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Sahroni</title>
+    <style>
+      /* ====== STYLING SAHRONI ====== */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to right, #f4f4f9, #eef1f5);
+        color: #2c3e50;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #2c3e50;
+        color: #fff;
+        padding: 3rem 1rem;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        color: #bdc3c7;
+      }
+
+      nav {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #2c3e50;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #3498db;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+
+      section {
+        background: #fff;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      }
+
+      section h2 {
+        color: #3498db;
+        margin-bottom: 1rem;
+      }
+
+      .projects li {
+        margin-bottom: 1rem;
+        list-style: none;
+        padding-left: 1rem;
+        position: relative;
+      }
+
+      .projects li::before {
+        content: '🔹';
+        position: absolute;
+        left: 0;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1.5rem;
+        background: #2c3e50;
+        color: white;
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        nav {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sahroni</h1>
+      <p>Frontend Developer | Creative Coder | Startup AI</p>
+    </header>
+
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#project">Projek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <div class="container">
+      <section id="tentang">
+        <h2>Tentang Sahroni</h2>
+        <p>
+          Hai! Saya Sahroni, seorang pengembang web yang sedang membangun masa
+          depan lewat baris demi baris kode. Fokus saya saat ini adalah
+          mempelajari frontend development seperti HTML, CSS, dan JavaScript.
+          Saya punya semangat tinggi buat bantu orang lewat teknologi dan desain
+          yang bagus.
+        </p>
+      </section>
+
+      <section id="project">
+        <h2>Projek Terbaru</h2>
+        <ul class="projects">
+          <li>
+            <strong>Landing Page Jasa Desain</strong> — Website elegan untuk
+            jasa desain grafis. Dibuat dengan HTML, CSS, dan animasi ringan.
+          </li>
+          <li>
+            <strong>Kalkulator Interaktif</strong> — Aplikasi kalkulator web
+            interaktif pakai JavaScript dasar. Latihan manipulasi DOM.
+          </li>
+          <li>
+            <strong>Portofolio Pribadi</strong> — Ya, website ini! Dibuat dengan
+            cinta dan CSS yang bersih 😎
+          </li>
+        </ul>
+      </section>
+
+      <section id="kontak">
+        <h2>Kontak</h2>
+        <p>Email: sr2537110@gmail.com</p>
+        <p>WhatsApp: https://wa.me/qr/ENTRV6J3NEOTM1</p>
+        <p>
+          GitHub:
+          <a href="https://github.com/08813028527" target="_blank"
+            >github.com/saharoni</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      &copy; 2025 Sahroni. Semua hak dilindungi. Dibuat dengan hati & secangkir
+      kopi ☕
+    </footer>
+  </body>
+</html>
